@@ -98,7 +98,7 @@
         padding-bottom: 0px;
     }
     .brand .logo{
-        font-size: larg;
+        font-size: 30px;
         margin-top: 0px;
     }
     .hero{
@@ -130,15 +130,15 @@
     }
     .main-container .content .content-caption{
         text-align: center;
-        width: 100%;
-        font-size: small;
+        width: 244px;
+        font-size: 18px;
         margin: 10px auto;
     }
     .btn{
-        padding: 5px 10px;
+        padding: 5px 5px;
         display: block;
         font-size: small;
-        margin: 10px auto;
+        margin-inline:auto;
         cursor: pointer;
     }
     .login-section{
