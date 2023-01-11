@@ -1,6 +1,54 @@
 
 /* media quries */
 
+
+@media screen and (min-width:800px) and (max-width:1200px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .hero{
+        width: 100%;
+        height: 100%;
+    }
+    .header .navbar{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header .serach-bar .search{
+        width: 400px;
+        padding: 5px;
+    }
+    
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 60%;
+    }
+}
+
+
 @media screen and (max-width:799px){
     .header{
         flex-direction: column;
@@ -42,45 +90,215 @@
     }
 }
 
+/* pixel 5 */
 
-@media screen and (min-width:800px) and (max-width:1200px){
+@media screen and (max-width:393px){
     .header{
         flex-direction: column;
         padding-bottom: 0px;
     }
-    .header .navbar{
-        display: block;
-        margin-bottom: 10px;
+    .brand .logo{
+        font-size: larg;
+        margin-top: 0px;
+    }
+    .hero{
+        width: 393px;
+        height: 851px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .header .serach-bar{
+        width: 80%;
     }
     .header .serach-bar .search{
-        width: 400px;
-        padding: 5px;
+        width: 150px;
+        margin-inline: auto;
     }
     
     .main-container{
         flex-direction: column;
     }
     .main-container .content{
-        width: 100%;
+        width: 80%;
+        margin-inline:auto;
+        margin-bottom: 0px;
     }
     .main-container .content .content-title{
-        font-size: 30px;
+        font-size: 21px;
         text-align: center;
     }
     .main-container .content .content-caption{
         text-align: center;
-        width: 80%;
+        width: 100%;
+        font-size: small;
         margin: 10px auto;
     }
     .btn{
         padding: 5px 10px;
         display: block;
+        font-size: small;
         margin: 10px auto;
         cursor: pointer;
     }
     .login-section{
         padding: 10px;
         margin:20px auto;
-        width: 60%;
+        width: 300px;
+        height: 350px;
+        position: relative;
+        top:-20px
+    }
+    .login-section .form-group>input,button{
+        display: block;
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 0px;
+    }
+    
+}
+
+
+
+
+/* iphone SE */
+
+
+@media screen and (max-width:375px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .brand .logo{
+        font-size: large;
+        margin-top: 0px;
+    }
+    .hero{
+        width: 375px;
+        height: 667px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .header .serach-bar{
+        width: 80%;
+    }
+    .header .serach-bar .search{
+        width: 150px;
+        margin-inline: auto;
+    }
+    
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 80%;
+        margin-inline:auto;
+        margin-bottom: 0px;
+    }
+    .main-container .content .content-title{
+        font-size: 21px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 100%;
+        font-size: small;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        font-size: small;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 300px;
+        height: 250px;
+        position: relative;
+        top:-20px
+    }
+    .login-section .form-group>input,button{
+        display: block;
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 0px;
+    }
+    .login-caption-sub, .icons-container{
+        display: none;
     }
 }
+
+/* samsun galaxy-360 */
+
+@media screen and (max-width:360px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .brand .logo{
+        font-size: larger;
+        margin-top: 0px;
+    }
+    .hero{
+        width: 360px;
+        height: 740px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .header .serach-bar{
+        width: 80%;
+    }
+    .header .serach-bar .search{
+        width: 150px;
+        margin-inline: auto;
+    }
+    
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 80%;
+        margin-inline:auto;
+        margin-bottom: 0px;
+    }
+    .main-container .content .content-title{
+        font-size: 21px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 100%;
+        font-size: small;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        font-size: small;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 300px;
+        height: 350px;
+        position: relative;
+        top:-20px
+    }
+    .login-section .form-group>input,button{
+        display: block;
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 0px;
+    }
+    .login-caption-sub, .icons-container{
+        display: flex;
+    }
+}
+
