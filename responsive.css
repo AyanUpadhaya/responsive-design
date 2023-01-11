@@ -1,0 +1,442 @@
+
+/* media quries */
+
+@media screen and (max-width:652px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:657px) and (max-width:700px){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:376) and(max-width:656){
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .login-section{
+        padding: 10px;
+        margin:20px auto;
+        width: 50%;
+    }
+    
+}
+/* Pixel 5 */
+
+@media screen and (max-width:393px){
+    .brand .logo{
+        font-size: 40px;
+    }
+    .header .serach-bar{
+        padding: 10px 10px;
+    }
+    .header .serach-bar .search{
+        padding: 10px 10px;
+    }
+    .hero{
+        height: 851px;
+        background-position: center;
+        background-size: cover;
+    }
+    .header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        font: 16px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 10px 10px;
+        display: block;
+        margin: 20px auto;
+        cursor: pointer;
+        font-size: small;
+    }
+    .login-section{
+        padding: 20px;
+        margin:0px auto;
+        width: 90%;
+        height: 350px;
+    }
+    .login-section .login-title{
+        font-size: 20px;
+    }
+    .login-section .login-caption{
+        font-size: small;
+        margin-top: 0;
+    }
+    .login-section .login-btn{
+        padding: 10px 75px;
+    }
+    .login-section .login-caption-sub{
+        display: block;
+        margin-top:0px;
+    }
+    .login-section .icons-container{
+        /* display: block; */
+        width: 100%;
+        gap: 20px;
+    }
+    .login-section .icons-container .icons img{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+        /* margin-right: 10px; */
+    }
+    .form-group input{
+        width: 180px;
+        margin-bottom: 3px;
+    }
+    
+}
+
+
+
+/* iphone SE */
+@media screen and(min-width:375) and (max-width:380px){
+    .brand .logo{
+        font-size: 30px;
+    }
+    .header .serach-bar{
+        padding: 10px 10px;
+    }
+    .header .serach-bar .search{
+        padding: 3px 10px;
+    }
+    .hero{
+        height: 667px;
+        background-position: center;
+        background-size: cover;
+    }
+    .header{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        width: 100%;
+    }
+    .main-container .content .content-title{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        font: 13px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .btn{
+        padding: 5px 10px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+        font-size: small;
+    }
+    .login-section{
+        padding: 10px;
+        margin:0px auto;
+        width: 80%;
+        height: 200px;
+    }
+    .login-section .login-title{
+        font-size: 10px;
+    }
+    .login-section .login-caption{
+        font-size: small;
+        margin-top: 0;
+    }
+    .login-section .login-btn{
+        padding: 3px 5px;
+    }
+    .login-section .login-caption-sub{
+        display: none;
+    }
+    .login-section .icons-container{
+        display: none;
+    }
+    .form-group input{
+        width: 150px;
+        margin-bottom: 3px;
+    }
+    
+}
+/* i pad air*/
+@media screen(min-width:700) and (max-width:768px){
+    .brand .logo{
+        font-size: 85px;
+    }
+    .header .serach-bar{
+        padding: 10px 10px;
+    }
+    .header .serach-bar .search{
+        padding: 20px 80px;
+    }
+    .hero{
+        height: 1100px;
+        background-position: center;
+        background-size: cover;
+    }
+    .header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        padding-top: 4px;
+        margin-bottom: 71px;
+    }
+    .main-container .content .content-title{
+        font-size: 49px;
+        text-align: center;
+        margin-bottom: 43px;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        font-size: 27px;
+        width: 514px;
+        margin: 9px auto;
+    }
+    .btn{
+        padding: 18px 58px;
+        display: block;
+        margin: 20px auto;
+        cursor: pointer;
+        font-size: large;
+    }
+    .login-section{
+        padding: 19px 20px;
+        margin:0px auto;
+        width: 64%;
+        height: 350px;
+    }
+    .login-section .login-title{
+        font-size: 20px;
+    }
+    .login-section .login-caption{
+        font-size: large;
+        margin-top: 0;
+    }
+    .login-section .login-btn{
+        padding: 14px 138px;
+    }
+    .login-section .login-caption-sub{
+        display: block;
+        font-size: large;
+        margin-top:0px;
+    }
+    .login-section .icons-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .login-section .icons-container .icons img{
+        width: 32px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    .form-group input{
+        width: 303px;
+        margin-bottom: 12px;
+    }
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:800px){
+    .brand .logo{
+        font-size: 85px;
+    }
+    .header .serach-bar{
+        padding: 10px 10px;
+    }
+    .header .serach-bar .search{
+        padding: 20px 80px;
+    }
+    .hero{
+        height: 1185px;
+        background-position: center;
+        background-size: cover;
+    }
+    .header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .header .navbar .nav-list{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-container .content{
+        padding-top: 4px;
+        margin-bottom: 71px;
+    }
+    .main-container .content .content-title{
+        font-size: 49px;
+        text-align: center;
+        margin-bottom: 43px;
+    }
+    .main-container .content .content-caption{
+        text-align: center;
+        font-size: 27px;
+        width: 514px;
+        margin: 9px auto;
+    }
+    .btn{
+        padding: 18px 58px;
+        display: block;
+        margin: 20px auto;
+        cursor: pointer;
+        font-size: large;
+    }
+    .login-section{
+        padding: 19px 20px;
+        margin:0px auto;
+        width: 64%;
+        height: 350px;
+    }
+    .login-section .login-title{
+        font-size: 20px;
+    }
+    .login-section .login-caption{
+        font-size: large;
+        margin-top: 0;
+    }
+    .login-section .login-btn{
+        padding: 14px 138px;
+    }
+    .login-section .login-caption-sub{
+        display: block;
+        font-size: large;
+        margin-top:0px;
+    }
+    .login-section .icons-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .login-section .icons-container .icons img{
+        width: 32px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+    .form-group input{
+        width: 303px;
+        margin-bottom: 12px;
+    }
+    
+}
