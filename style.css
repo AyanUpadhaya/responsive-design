@@ -1,4 +1,7 @@
 /* globals */
+body{
+    background-color: lightgray;
+}
 *{
     padding: 0;
     margin: 0;
